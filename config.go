@@ -1,1 +1,1 @@
-package shortlink_service
+package main
