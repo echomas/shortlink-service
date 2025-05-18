@@ -1,0 +1,110 @@
+# Binaries for programs and plugins
+# If your project name is 'myproject', then the compiled binary might also be 'myproject'.
+# Add your specific executable names here if they are in the root.
+# Or, if you build them into a 'bin/' directory, you might ignore that instead.
+# *.exe
+# *.dll
+# *.so
+# *.dylib
+# my-app-binary # Example: replace with your actual binary name if it's at the root
+
+# Test binaries
+# These are generated when running `go test -c`
+*.test
+
+# Output of `go test -coverprofile`
+coverage.out
+coverage.html # If you generate HTML reports from .out
+
+# Profiling data
+*.prof
+*.cpu
+*.mem
+*.heap
+*.trace
+
+# Dependency directory (Go modules manage dependencies outside the project,
+# but if you use `go mod vendor`, you might choose to ignore the vendor directory.
+# However, many teams *do* commit the vendor directory for reproducible builds.
+# Uncomment the next line if you *don't* want to commit your vendor directory.
+# vendor/
+
+# IDE and editor specific files
+# IntelliJ IDEA / GoLand
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+# TextMate
+*.tmproj
+*.tmproject
+*.tmbundle
+
+# Vim
+*[._]sw[a-p]
+*.swo
+*.swn
+# NetBeans
+nbproject/
+
+# OS-generated files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+# KDE KDevelop
+*.kdev4
+
+# Windows
+# Desktop.ini
+# thumbs.db
+# ehthumbs.db
+# $RECYCLE.BIN/
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment configuration files
+# Commit a .env.example or .env.template instead
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Compiled Go files (less common to ignore these directly as `go build` handles output location)
+# *.a
+# *.o
+
+# Specific tool temporary files
+# For example, delve debugger
+.dlv/
+
+# If you have a frontend part (e.g. with Node.js) in a subdirectory
+# frontend/node_modules/
+# frontend/build/
+# frontend/.DS_Store
+
+# Other temporary files
+tmp/
+temp/
